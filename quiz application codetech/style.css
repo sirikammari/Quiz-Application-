@@ -1,0 +1,110 @@
+body {
+  background: rgb(12, 12, 12);
+}
+
+.app {
+  background: #080808;
+  width: 90%;
+  max-width: 600px;
+  margin: 100px auto 0;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-family: Georgia;
+  color: #f9fbfd;
+  font-weight: 500;
+  border-bottom: 1px solid #333;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 10px 0;
+}
+
+.quiz h2 {
+  font-family: Georgia;
+  color: #d6e2e2;
+  font-weight: 500;
+}
+
+.btn {
+  font-family: 'Gill Sans';
+  color: #fff;
+  background: #133f68;
+  border-radius: 10px;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #e2dfdd;
+  color: #131111;
+}
+
+#next-btn {
+  background: #133f68;
+  color: #fff;
+  border-radius: 4px;
+  width: 150px;
+  padding: 10px;
+  margin: 20px auto 0;
+  display: none;
+}
+
+#next-btn:hover {
+  background: #fff;
+  color: #131111;
+  cursor: pointer;
+}
+
+#glow-box {
+  background-color: #000000;
+  border-radius: 12px;
+  transition: box-shadow 0.3s ease;
+}
+
+#glow-box:hover {
+  box-shadow: 0 0 20px 5px #00ffcc;
+}
+
+/* Optional explanation styles */
+#review-box button {
+  margin-top: 10px;
+  background-color: #0066ff;
+}
+
+#review-box button:hover {
+  background-color: #00ccff;
+  color: #000;
+}
+
+#review-box div[id^="explanation-"] {
+  border-left: 3px solid #00ccff;
+  padding-left: 10px;
+  font-style: italic;
+  margin-top: 10px;
+  display: none;
+  color: #00ccff;
+}
+
+.explanation {
+  display: none;
+  border-left: 3px solid #00ccff;
+  padding-left: 10px;
+  margin-top: 10px;
+  font-style: italic;
+  color: #00ccff;
+}
+
+canvas#resultChart {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 10px;
+}
